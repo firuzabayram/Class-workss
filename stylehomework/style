@@ -1,0 +1,62 @@
+.card{
+    border: 1px solid rgb(43, 148, 48);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(52, 155, 95);
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+button{
+background-color: rgb(56, 158, 25);
+color: aliceblue;
+width: 80px;
+height: 40px;
+border: none;
+border-radius: 30%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+
+-----------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleaccount.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Create account</h1>
+    <div class="social">
+        <div class="circle">
+     
+        </div>
+        <div class="circle">
+               
+        </div>
+        <div class="circle">
+               
+        </div>
+    </div>
+
+        <p>or use your email for registration</p><br><br><br><br><br>
+       <div class="sing"> 
+       <button>sing in</button>
+       </div>
+    </div>
+</body>
+</html>
